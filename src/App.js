@@ -26,8 +26,11 @@ let allgame = [
 
 function App() {
     return (
-        <div className="hh">
+        <div className="main-big-container-all-sec">
             <Nevbar/>
+
+          <div className="combint-alll">
+
             <section className="main-container">
                 <div className="side-box-data">
                     <h2>MMOGLIFE</h2>
@@ -207,6 +210,9 @@ function App() {
                 <img src={visa} alt="visa" className="viscardimgae"/>
                 </div>
             </footer>
+
+            </div>
+
         </div>
     );
 }
