@@ -6,7 +6,7 @@
     justify-content: center;
     top: 0;
     width: 100%;
-    z-index: 99;
+    z-index: 9999999999999;
 
 }
 .cart-iicon {
@@ -63,6 +63,7 @@ input[type=checkbox]{
     .header-nevigation-bar {
         justify-content: space-around;
         padding: 10px 7px;
+        z-index: 9999999;
         // position: fixed;
         // top: 0;
     }
@@ -86,10 +87,10 @@ transition: all .7s;
         left: -100%;
         transition: all .6s;
         list-style: none;
-        background-color: rgba(29, 28, 28,.9);
+        background-color: rgba(41, 14, 65, 0.9);
         height: 83vh;
         width: 87%;
-        top: 48px;
+        top: 60px;
       z-index: 99999;
         padding: 4vh 4% 0 2%;
 

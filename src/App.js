@@ -126,7 +126,7 @@ function App() {
             </section>
 
             {/* ====================Foutth secton =================== */}
-            <section className="addd-horizantal-scrolll">
+            <section className="addd-horizantal-scrolll addpaging">
                 <div className="second-header">
                     <h2>Best seller</h2>
                     <button className="button-cross">

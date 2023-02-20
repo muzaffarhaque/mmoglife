@@ -82,11 +82,14 @@ width: 100%;
 }
 
 .addd-horizantal-scrolll {
-  height: 100vh;
+  height: 73vh;
   background-color: var(--dakrblue);
 //   border: 2px solid red;
 }
-
+.addpaging{
+    padding: 5vh 0;
+    height: 90vh;
+}
 //?second section style start--------------------------------------
 .second-header {
   width: 100%;
@@ -123,20 +126,21 @@ width: 100%;
 .carde-scrolling-frame{
     display: flex;
     align-items: center;
-    justify-content: center;
-    overflow: auto;
-    // overflow-x: scroll;
+    justify-content: left;
+    overflow: hidden;
+     overflow-x: scroll;
     background-color: var(--dakrblue);
     padding: 3vh 1vw;
     .card{
         position: relative;
         width: 30%;
         min-width: 300px;
-        padding: 1vw;
-        border-radius: 10px 10px 0 0;
+        padding: 10px;
+        border-radius: 10px ;
         background: linear-gradient(0deg, #3A2746, #3A2746),
         linear-gradient(0deg, #2E1F37, #2E1F37);
         margin: 2vh 2vw;
+        padding-bottom: 2vh;
         .shasdo{
             width: 100%;
             height: 100%;
@@ -161,6 +165,7 @@ visibility: visible;
         h4{
             font-size: calc(12px + .8vw);
             color: white;
+            margin: 1vh 0;
         }
         p{
             font-size: calc(12px + .6vw);
@@ -265,6 +270,7 @@ visibility: visible;
         flex-wrap: wrap;
         p{
             color: white;
+            padding-bottom: 2vh;
         }
     }
 }
@@ -276,7 +282,8 @@ visibility: visible;
 
 @media (max-width: 900px) {
   .main-container {
-    height: 100vh;
+    height: 94vh;
+    margin-top: 5vh;
     background: rgb(26, 2, 51) url("./Images/mubilbg.jpg") no-repeat top;
     background-size: 100% 40%;
   }
@@ -318,7 +325,7 @@ visibility: visible;
     
     .aboutdata{
         position: absolute;
-        top: 60vh;
+        top: 59vh;
         left: 0vw;
         justify-content: center;
         h2{
@@ -338,7 +345,7 @@ visibility: visible;
     background-size: cover;
     .whyus{
         justify-content: center;
-        top: 60vh;
+        top: 54vh;
         h2{
             text-align: center !important;
 
