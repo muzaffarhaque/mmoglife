@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/mmoglife/static/css/main.0a1579ea.css",
+    "main.js": "/mmoglife/static/js/main.95c27927.js",
+    "static/js/787.e29adc29.chunk.js": "/mmoglife/static/js/787.e29adc29.chunk.js",
+    "static/media/BG IMAGE.png": "/mmoglife/static/media/BG IMAGE.e5d4446e45e790d6091a.png",
+    "static/media/BG Image12.png": "/mmoglife/static/media/BG Image12.ea945533118b2dd3cce3.png",
+    "static/media/animi she.png": "/mmoglife/static/media/animi she.5e7f40c08d6b96ef60d5.png",
+    "static/media/Final Fantasy.png": "/mmoglife/static/media/Final Fantasy.1550bba0782276da6888.png",
+    "static/media/world of warcraft.png": "/mmoglife/static/media/world of warcraft.a0013a18b64eabc9b2d6.png",
+    "static/media/all1.png": "/mmoglife/static/media/all1.a6d2c870aadd0e6e651c.png",
+    "static/media/samurai-army-japanese-castle-uhdpaper.com-4K-4 1.png": "/mmoglife/static/media/samurai-army-japanese-castle-uhdpaper.com-4K-4 1.573ddb236375b93312b0.png",
+    "static/media/all3.png": "/mmoglife/static/media/all3.298611e4a488b2cd479e.png",
+    "static/media/all4.png": "/mmoglife/static/media/all4.aef032c088a459aa72ec.png",
+    "static/media/carmubile.png": "/mmoglife/static/media/carmubile.bddafe851c4262d794cf.png",
+    "static/media/all2.png": "/mmoglife/static/media/all2.0aada1f3a811e53af756.png",
+    "static/media/fortente.png": "/mmoglife/static/media/fortente.a74f04dee6867f14adc2.png",
+    "static/media/mubilbg.jpg": "/mmoglife/static/media/mubilbg.f9ee7f30f4bf33b83f60.jpg",
+    "static/media/Hero Image Main.png": "/mmoglife/static/media/Hero Image Main.6789bb6c58a050b37e9c.png",
+    "static/media/shemubile.jpg": "/mmoglife/static/media/shemubile.5e0565ba2858f5519e99.jpg",
+    "index.html": "/mmoglife/index.html",
+    "main.0a1579ea.css.map": "/mmoglife/static/css/main.0a1579ea.css.map",
+    "main.95c27927.js.map": "/mmoglife/static/js/main.95c27927.js.map",
+    "787.e29adc29.chunk.js.map": "/mmoglife/static/js/787.e29adc29.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0a1579ea.css",
+    "static/js/main.95c27927.js"
+  ]
+}
