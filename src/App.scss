@@ -1,0 +1,371 @@
+
+:root{
+   --dakrblue:rgb(13, 2, 26)
+}
+.main-container {
+  height: 100vh;
+  background: rgb(26, 2, 51) url("./Images/BG\ IMAGE.png") no-repeat center;
+  background-size: cover;
+  position: relative;
+}
+
+.side-box-data {
+  position: absolute;
+  width: 31%;
+  // border: 2px solid white;
+  float: right;
+  display: flex;
+  justify-content: end;
+  flex-wrap: wrap;
+  // margin: 30vh 10vw;
+  top: 34vh;
+  right: 10vw;
+  h2 {
+    font-family: "Helvetica Neue";
+    font-style: normal;
+    font-weight: 700;
+    font-size: calc(30px + 1.5vw);
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    letter-spacing: 0.025em;
+    text-transform: uppercase;
+
+    /* Neutral/White */
+
+    color: #ffffff;
+  }
+  p {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: calc(13px + 0.5vw);
+    line-height: 150.68%;
+    /* or 27px */
+
+    text-align: right;
+
+    /* Neutral/White */
+
+    color: #ffffff;
+  }
+}
+.button-cross {
+  // clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  padding: 10px 20px;
+  margin: 2vh 1vw;
+  transform: skew(-40deg, 0);
+  background-color: #993cd2;
+  cursor: pointer;
+  h3 {
+    transform: skew(40deg, 0) !important;
+    // border: 1px solid red;
+    font-size: calc(9px + 0.5vw);
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+    color: white;
+  }
+}
+
+.addd-horizantal-scrolll {
+  height: 100vh;
+  background-color: var(--dakrblue);
+//   border: 2px solid red;
+}
+
+//?second section style start--------------------------------------
+.second-header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: var(--dakrblue);
+  padding: 1vh 0px;
+  h2 {
+    font-size: calc(35px + 0.4vw);
+    color: white;
+    font-family: "Helvetica Neue";
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0.025em;
+    text-transform: uppercase;
+    padding: 1px 35px;
+  }
+}
+
+.carde-scrolling-frame::-webkit-scrollbar{
+  -webkit-appearance: none;
+ 
+  height: 10px;
+}
+
+.carde-scrolling-frame::-webkit-scrollbar-thumb{
+   
+    background-color: #993CD2;
+    border-radius: 5px;
+}
+
+.carde-scrolling-frame{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: auto;
+    // overflow-x: scroll;
+    background-color: var(--dakrblue);
+    padding: 3vh 1vw;
+    .card{
+        position: relative;
+        width: 30%;
+        min-width: 300px;
+        padding: 1vw;
+        border-radius: 10px 10px 0 0;
+        background: linear-gradient(0deg, #3A2746, #3A2746),
+        linear-gradient(0deg, #2E1F37, #2E1F37);
+        margin: 2vh 2vw;
+        .shasdo{
+            width: 100%;
+            height: 100%;
+            background-color: rgba(20, 19, 19,.8);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            top: 0;
+            left: 0;
+            visibility: hidden;
+        }
+        &:hover .shasdo{
+visibility: visible;
+        }
+        img{
+            border-radius: 10px 10px 0 0;
+            width: 100%;
+            height: auto;
+
+        }
+        h4{
+            font-size: calc(12px + .8vw);
+            color: white;
+        }
+        p{
+            font-size: calc(12px + .6vw);
+            color: white;
+        }
+    }
+}
+
+// ================ About-us-sec +=================================
+
+.About-us-sec{
+    height: 100vh;
+    background: rgb(26, 2, 51) url("./Images/animi\ she.png") no-repeat center;
+    background-size: cover;
+    position: relative;
+    .aboutdata{
+        position: absolute;
+        left: 16vw;
+        justify-content: flex-start;
+        h2{
+            text-align: left !important;
+        }
+        p{
+            text-align: left !important;
+            font-size: calc(10px + .5vw)
+        }
+    }
+}
+
+//====================== All Gaemes sellers =================
+.allgames{
+    width: 20% !important;
+    min-width: 240px !important;
+   h4{
+    text-align: center;
+    font-weight: 400;
+   }
+}
+// ?----------------------- addcareimgaetobag---------------
+.addcareimgaetobag{
+    background: rgb(26, 2, 51) url("./Images/BG\ Image12.png") no-repeat center;
+    background-size: cover;
+    .whyus{
+        justify-content: flex-start;
+        h2{
+            text-align: left !important;
+
+        }
+        p{
+            text-align: left !important;
+        }
+    }
+}
+
+
+
+// Footer start =============================
+
+.footer{
+    background: rgb(26, 2, 51) url("./Images/samurai-army-japanese-castle-uhdpaper.com-4K-4\ 1.png") no-repeat center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 5vh 10vw;
+    .colum{
+        color:  #AF6CD8;
+        margin: 2vh 1vw;
+       h4{
+        color: white;
+       }
+    &:first-child{
+        width: 15%;
+        min-width: 200px;
+    }
+    &:nth-child(2){
+        width: 23%;
+        min-width: 350px;
+        .splites{
+            display: flex;
+            align-items: center;
+            justify-content:space-between;
+            div{
+                margin:0 .5vw;
+            }
+            // flex-wrap: wrap;
+
+        }
+        
+    }
+    &:nth-child(3){
+        width: 15%;
+        min-width: 150px;
+    }
+    &:nth-child(4){
+        width: 25%;
+        min-width: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        p{
+            color: white;
+        }
+    }
+}
+}
+
+
+
+
+
+@media (max-width: 900px) {
+  .main-container {
+    height: 100vh;
+    background: rgb(26, 2, 51) url("./Images/mubilbg.jpg") no-repeat top;
+    background-size: 100% 40%;
+  }
+
+  .side-box-data {
+    width: 100%;
+    padding: 10px;
+    float: none;
+    justify-content: center;
+    top: 47%;
+    right: 0;
+    left: 0;
+
+    p {
+      text-align: center;
+      padding: 30px;
+    }
+    .button-cross {
+      width: 80%;
+    }
+  }
+
+  .carde-scrolling-frame::-webkit-scrollbar{
+    -webkit-appearance: none;
+   
+    height: 0px;
+  }
+  
+
+
+
+
+
+//   bautt us-------------------------------
+.About-us-sec{
+    height: 100vh;
+    background: rgb(26, 2, 51) url("./Images/shemubile.jpg") no-repeat top;
+    background-size: 100% 50%;
+    
+    .aboutdata{
+        position: absolute;
+        top: 60vh;
+        left: 0vw;
+        justify-content: center;
+        h2{
+            text-align: center !important;
+        }
+        p{
+            text-align: center !important;
+            font-size: calc(10px + .5vw)
+        }
+    }
+}
+
+
+
+.addcareimgaetobag{
+    background: rgb(26, 2, 51) url("./Images/carmubile.png") no-repeat top;
+    background-size: cover;
+    .whyus{
+        justify-content: center;
+        top: 60vh;
+        h2{
+            text-align: center !important;
+
+        }
+        p{
+            text-align: center!important;
+        }
+    }
+}
+
+
+
+
+
+
+.footer{
+    .colum{
+        width: 100% !important;
+        padding: 2vh 5vw;
+        align-items: center;
+        text-align: center;
+        &:nth-child(2){
+           
+            .splites{
+              
+                flex-wrap: wrap;
+    
+            }
+            
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+}

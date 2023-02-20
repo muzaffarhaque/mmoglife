@@ -1,0 +1,124 @@
+.header-nevigation-bar {
+    background-color: rgb(13, 2, 26);
+    position: fixed !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+
+}
+.cart-iicon {
+    margin-left: 1vw;
+}
+.logo-header {
+    // -webkit-background-clip:text;
+    //    margin-left: 10%;
+    cursor: pointer;
+    width: calc(150px + 6vw);
+}
+.sidebar {
+    display: inline-block;
+    // border: 2px solid green;
+    // padding-bottom: 10px;
+    list-style: none;
+
+    li {
+        float: left;
+        color: white;
+        font-family: Open Sans , Arial, Helvetica, sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: calc(12px + .3vw);
+        line-height: 30px;
+        margin: 0 1vw;
+        cursor: pointer;
+        &:hover{
+            color: aqua;
+        }
+        &:first-child {
+            color: #AF6CD8;
+
+        }
+        select {
+            font-size: calc(12px + .3vw);
+            padding: 5 10px;
+            border: none;
+            background-color: transparent;
+            color: white;
+            outline: none;
+        }
+
+    }
+}
+.side-bar-icon {
+    display: none;
+    cursor: pointer;
+}
+input[type=checkbox]{
+    display: none;
+}
+@media(max-width:900px) {
+    .header-nevigation-bar {
+        justify-content: space-around;
+        padding: 10px 7px;
+        // position: fixed;
+        // top: 0;
+    }
+    .side-bar-icon {
+        display: block;
+        color: white;
+        font-size: 25px;
+    }
+    #so:checked~.sidebar{
+left: 0;
+transition: all .7s;
+    }
+
+    
+   
+    .sidebar {
+        position: fixed !important;
+        // display: block;
+        //  border: 2px solid green;
+        // padding-bottom: 10px;
+        left: -100%;
+        transition: all .6s;
+        list-style: none;
+        background-color: rgba(29, 28, 28,.9);
+        height: 83vh;
+        width: 87%;
+        top: 48px;
+      z-index: 99999;
+        padding: 4vh 4% 0 2%;
+
+        li {
+            float: none;
+            width: 100%;
+            color: white;
+            font-family: Open Sans , Arial, Helvetica, sans-serif;
+            font-style: normal;
+            font-weight: 600;
+            font-size: calc(20px + 1vw);
+            line-height: 30px;
+            padding: 2vh 0;
+            text-align: center;
+            &:hover {
+                background-color: rgba(193, 185, 176,.4);
+            }
+            &:first-child {
+                color: white;
+
+            }
+            &:last-child {
+                font-size: calc(40px + 1vw);
+            }
+            select {
+                font-size: calc(20px + 1vw);
+
+            }
+
+        }
+    }
+}
