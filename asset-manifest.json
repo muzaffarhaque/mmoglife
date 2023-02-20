@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/mmoglife/static/css/main.111689cf.css",
-    "main.js": "/mmoglife/static/js/main.b0ef1b97.js",
+    "main.js": "/mmoglife/static/js/main.c08a5e42.js",
     "static/js/787.e29adc29.chunk.js": "/mmoglife/static/js/787.e29adc29.chunk.js",
     "static/media/BG IMAGE.png": "/mmoglife/static/media/BG IMAGE.e5d4446e45e790d6091a.png",
     "static/media/BG Image12.png": "/mmoglife/static/media/BG Image12.ea945533118b2dd3cce3.png",
@@ -20,11 +20,11 @@
     "static/media/shemubile.jpg": "/mmoglife/static/media/shemubile.5e0565ba2858f5519e99.jpg",
     "index.html": "/mmoglife/index.html",
     "main.111689cf.css.map": "/mmoglife/static/css/main.111689cf.css.map",
-    "main.b0ef1b97.js.map": "/mmoglife/static/js/main.b0ef1b97.js.map",
+    "main.c08a5e42.js.map": "/mmoglife/static/js/main.c08a5e42.js.map",
     "787.e29adc29.chunk.js.map": "/mmoglife/static/js/787.e29adc29.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.111689cf.css",
-    "static/js/main.b0ef1b97.js"
+    "static/js/main.c08a5e42.js"
   ]
 }
